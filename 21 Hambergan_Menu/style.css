@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    background-color: rgba(246, 240, 235, 1);
+    
+    color: rgb(73,33,24);   ;
+     
+
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+
+
+.main-container{
+    min-width: 100vw;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+header{
+    display: flex;
+    height: 121px;
+    background: rgba(255, 255, 255, 0.571);
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 25px;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(8px);
+    
+
+    
+}
+ 
+nav{
+    display: flex;
+     
+    gap: 60px;
+}
+
+nav a {
+   text-decoration-line: none;
+   color: inherit;
+   font-size: 20px;
+   font-weight: 700;
+    
+}
+footer h2,p{
+    font-size: 24px;
+    text-align: end;
+    color: inherit;
+    margin-right: 100px;
+    text-decoration: underline;
+}
+
+
+main img{
+    max-width: 100%;
+}
+main img:not(:first-of-type){
+    max-width: 80%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+nav img{
+    display: none;
+}
+
+.hamburgn-menu img{
+    display: none;
+}
+
+ 
+@media (width<=1200px){
+    nav{
+        gap:50px
+    }
+    nav a{
+        font-size: 16px;
+    }
+
+    header{
+        padding: 24px 25px;
+    }
+}
+@media (width<=960px){
+    nav{
+        gap:25px
+    }
+    nav a{
+        font-size: 14px;
+    }
+
+    header{
+        padding: 24px 25px;
+    }
+}
+
+@media (width<780px){
+    header{
+        background-color:#f6f0ebb7;
+        padding: 24px 25px;
+       
+        
+         
+    }
+
+    header .logo{
+        width:50px;
+    }
+    .container{
+        padding: 40px;
+    }
+
+    .container h1{
+        font-size: 28px;
+        font-weight: 650;
+    }
+
+     footer p,h2{
+        font-size:16px ;
+     }
+    
+
+    nav {
+        position: absolute;
+        background-color : rgba(255, 255, 255, 0.9);
+
+         flex-direction: column;
+         right: 0;
+         padding: 40px;
+         top: 17px;
+         right: -256px;
+         /* display: none; */
+         transition: right 0.4s ease-in-out;
+         
+          
+          
+    }
+
+    nav a{
+        display: flex;
+        font-size: 16px;
+        font-weight: 700;
+         margin-top: 24px;
+    }
+
+    .close-icon{
+        display: block;
+        width: 20px;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        cursor: pointer;
+    }
+
+    .hamburgn-menu{
+        width: 70px;
+        height: 70px;
+        background-color: white;
+        border-bottom-left-radius: 100%;
+        position: relative;
+        cursor: pointer;
+        display: block;
+        
+    }
+
+    .hamburgn-menu img{
+        width: 32px;
+        position: absolute;
+        left: 24px;
+        top: 18px;
+        display: block;
+    }
+
+    .menu-open .hamburgn-menu{
+        display: none;
+
+    }
+    .menu-open nav{
+        /* display: block; */
+        right: 25px;
+    }
+
+     
+
+
+    
+}
+
+
+ 

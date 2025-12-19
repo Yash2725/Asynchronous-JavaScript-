@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card2  {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 36px;
+
+}
+
+
+.add-img ,.remove-img{
+    cursor: pointer;
+    background-color: chocolate;
+    color: black;   
+    position: absolute; 
+    border-radius: 50%;
+}
+
+.add-img{
+    bottom: 50px;
+    left: 50px;
+
+}
+.remove-img{
+    bottom: 50px;
+    right: 50px;
+}
+ 
+
+.flexdiv{
+    text-align: center;
+     
+}
+.flexdiv p{
+    margin-top: -15px;
+}

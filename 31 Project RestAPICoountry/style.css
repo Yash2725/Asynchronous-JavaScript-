@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    box-shadow: 0 2px 24px 0px rgba(0, 0, 0, 0.109);
+}
+
+.header-containt{
+    display: flex;
+    width: 1200px;
+    background-color: #fff;
+    padding:0 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+}

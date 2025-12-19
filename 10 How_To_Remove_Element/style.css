@@ -1,0 +1,19 @@
+.container {
+    color: green;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 36px;
+}
+
+img {
+    width: 60px;
+}
+
+
+.newdivflex div{
+     display: inline-block;
+    text-align: center;
+}
+
+ 

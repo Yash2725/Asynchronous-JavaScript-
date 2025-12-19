@@ -1,0 +1,7 @@
+#CSSIMAGE{
+    border:5px solid green;
+}
+
+[target=_blank]{
+    border: 2px solid hotpink;
+}

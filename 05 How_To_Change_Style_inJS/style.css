@@ -1,0 +1,34 @@
+.css-image{
+    color:red;
+}
+
+
+.green-link{
+    color:rgb(69, 221, 9);
+    font-size:32px;
+    font-weight:700;
+    font-family: cursive;
+}
+
+.wavy-link{
+    text-decoration-line:underline ;
+     text-decoration-style:wavy ;
+
+}
+
+.may-link{
+    border: 2px solid hotpink;
+}
+
+
+.hideen{
+    display: none;
+}
+
+
+.pink{
+    color:aqua;
+    background-color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: bold;
+}
